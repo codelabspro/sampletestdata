@@ -1,53 +1,53 @@
 {
     "name": "John Does",
-    profile_name: "johndoe",
-    profile_url: "http://johndoe.com/johndoe",
-    gravatar_url: "https://uploads.johndoe.com/production/profile-photos/26170/thumb-John.jpg",
-    gravatar_hash: "7139178cce7d4441b3ea43af22600e8b",
-    badges: [
+    "profile_name": "johndoe",
+    "profile_url": "http://johndoe.com/johndoe",
+    "gravatar_url": "https://uploads.johndoe.com/production/profile-photos/26170/thumb-John.jpg",
+    "gravatar_hash": "7139178cce7d4441b3ea43af22600e8b",
+    "badges": [
         {
-            id: 49,
-            name: "Newbie",
-            url: "http://johndoe.com/johndoe",
-            icon_url: "https://achievement-images.johndoe.com/Generic_Newbie.png",
-            earned_date: "2012-07-23T19:59:34.000Z",
-            courses: [ ]
+            "id": 49,
+            "name": "Newbie",
+            "url": "http://johndoe.com/johndoe",
+            "icon_url": "https://achievement-images.johndoe.com/Generic_Newbie.png",
+            "earned_date": "2012-07-23T19:59:34.000Z",
+            "courses": [ ]
         },
         {
-            id: 26,
-            name: "Introduction",
-            url: "http://johndoe.com/library/html/introduction",
-            icon_url: "https://achievement-images.johndoe.com/HTML_Basics.png",
-            earned_date: "2012-07-23T21:57:24.000Z",
-            courses: [
+            "id": 26,
+            "name": "Introduction",
+            "url": "http://johndoe.com/library/html/introduction",
+            "icon_url": "https://achievement-images.johndoe.com/HTML_Basics.png",
+            "earned_date": "2012-07-23T21:57:24.000Z",
+            "courses": [
                 {
-                    title: "HTML",
-                    url: "http://johndoe.com/library/html",
-                    badge_count: 1
+                    "title": "HTML",
+                    "url": "http://johndoe.com/library/html",
+                    "badge_count": 1
                 },
                 {
-                    title: "Introduction",
-                    url: "http://johndoe.com/library/html/introduction",
-                    badge_count: 1
+                    "title": "Introduction",
+                    "url": "http://johndoe.com/library/html/introduction",
+                    "badge_count": 1
                 }
             ]
         }
     ],
-    points: {
-        total: 14452,
-        HTML: 1842,
-        CSS: 1152,
-        Design: 415,
-        JavaScript: 3712,
-        Ruby: 1528,
-        PHP: 668,
-        WordPress: 19,
-        iOS: 710,
-        Android: 72,
-        Development Tools: 1101,
-        Business: 146,
-        Python: 199,
-        Java: 377,
-        Digital Literacy: 366
+    "points": {
+        "total": 14452,
+        "HTML": 1842,
+        "CSS": 1152,
+        "Design": 415,
+        "JavaScript": 3712,
+        "Ruby": 1528,
+        "PHP": 668,
+        "WordPress": 19,
+        "iOS": 710,
+        "Android": 72,
+        "DevelopmentTools": 1101,
+        "Business": 146,
+        "Python": 199,
+        "Java": 377,
+        "DigitalLiteracy": 366
     }
 }

@@ -1,7 +1,0 @@
-{
-  "name": "Sample Test Data",
-  "description": "Sample Test Data",
-  "repository": "https://github.com/codesdk/sampletestdata",
-  "logo": "https://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"]
-}

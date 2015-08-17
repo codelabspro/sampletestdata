@@ -13,17 +13,20 @@ window.onload = function() {
 
     // Show a connected message when the WebSocket is opened.
     socket.onopen = function(event) {
+        console.log("onopen");
         socketStatus.innerHTML = 'Connected to: ' + event.currentTarget.URL;
         socketStatus.className = 'open';
     };
 
     // Handle any errors that occur.
     socket.onerror = function(error) {
+        console.log("onerror");
         console.log('WebSocket Error: ' + error);
     };
 
     // Handle messages sent by the server.
     socket.onmessage = function(event) {
+        console.log("onmessage");
         var message = event.data;
         messagesList.innerHTML += '<li class="received"><span>Received:</span>' +
         message + '</li>';
@@ -31,6 +34,7 @@ window.onload = function() {
 
     // Show a disconnected message when the WebSocket is closed.
     socket.onclose = function(event) {
+        console.log("onclose");
         socketStatus.innerHTML = 'Disconnected from WebSocket.';
         socketStatus.className = 'closed';
     };

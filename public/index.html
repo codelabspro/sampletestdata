@@ -1,8 +1,32 @@
-<p>Welcome to sampletestdata</p>
 
-<a href="https://sampletestdata.herokuapp.com/js/johndoe.json#">https://sampletestdata.herokuapp.com/js/johndoe.json#</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sample Test Data</title>
 
-Source for this is at <a href="http://github.com/codesdk/sampletestdata">http://github.com/codesdk/sampletestdata</a>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page-wrapper">
+        <h1>WebSockets Demo</h1>
 
-Link for heroku button
-<a href="https://devcenter.heroku.com/articles/heroku-button">https://devcenter.heroku.com/articles/heroku-button</a>
+        <div id="status">Connecting...</div>
+
+        <ul id="messages"></ul>
+
+        <form id="message-form" action="#" method="post">
+            <textarea id="message" placeholder="Write your message here..." required></textarea>
+            <button type="submit">Send Message</button>
+            <button type="button" id="close">Close Connection</button>
+        </form>
+        <p>Welcome to sampletestdata</p>
+        <a href="https://sampletestdata.herokuapp.com/js/johndoe.json#">https://sampletestdata.herokuapp.com/js/johndoe.json#</a>
+        Source for this is at <a href="http://github.com/codesdk/sampletestdata">http://github.com/codesdk/sampletestdata</a>
+        Link for heroku button
+        <a href="https://devcenter.heroku.com/articles/heroku-button">https://devcenter.heroku.com/articles/heroku-button</a>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

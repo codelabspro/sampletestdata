@@ -8,4 +8,13 @@ window.onload = function() {
   var closeBtn = document.getElementById('close');
 
   // The rest of the code in this tutorial will go here...
+  // Create a new WebSocket.
+  var socket = new WebSocket('ws://echo.websocket.org');
+
+  // Show a connected message when the WebSocket is opened.
+  socket.onopen = function(event) {
+    socketStatus.innerHTML = 'Connected to: ' + event.currentTarget.URL;
+    socketStatus.className = 'open';
+  };
+
 };
